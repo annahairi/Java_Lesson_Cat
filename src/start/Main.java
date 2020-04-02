@@ -19,5 +19,6 @@ public class Main {
         Person.hiCat();
         Cat.drink();
         Cat.eat(3);
+        Cat.walk();
     }
 }

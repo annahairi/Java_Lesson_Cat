@@ -25,4 +25,8 @@ public class Cat {
         return weight;
      //   System.out.println(weight);
     }
+    public static void walk()
+    {
+        System.out.println("Cat walks");
+    }
 }
