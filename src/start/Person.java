@@ -1,6 +1,7 @@
 package start;
 
 import Animal.Cat;
+import Animal.Dog;
 
 public class Person {
     public static void hiCat()
@@ -11,4 +12,13 @@ public class Person {
     {
         Cat.name = myFavoriteName;
     }
+    public static void playWithDog()
+    {
+        System.out.println("Let's play!");
+        Dog.gaf();
+        Dog.getAge();
+        Dog.appendYear(20);
+        System.out.println("___________________________");
+    }
+
 }
